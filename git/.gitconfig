@@ -1,19 +1,19 @@
 [user]
-	name = Jucimara Pereira
-	email = maricimara98@outlook.com
+    name = Jucimara Pereira
+    email = maricimara98@outlook.com
 [core]
-	editor = micro
-	autocrlf = input
-	excludesfile = /home/maricimara/.gitignore_global
+    editor = micro
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
 [color]
-	ui = auto
+    ui = auto
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [alias]
-	st = status
-	co = checkout
-	br = branch
-	cm = commit -m
-	unstage = reset HEAD --
-	last = log -1 HEAD
-	lg = log --oneline --graph --decorate --all
+    st = status
+    co = checkout
+    br = branch
+    cm = commit -m
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    lg = log --oneline --graph --decorate --all

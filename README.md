@@ -75,3 +75,22 @@ dotfiles/
 
 A chave SSH é gerada localmente e **não incluída no repositório**. O script `setup_git_github.sh` guia a criação e configuração de forma segura.
 
+---
+
+## 📦 Futuras Expansões
+
+- Suporte a `zsh`, `poetry`, `neovim`
+- Hooks (`.git/hooks/`) para padronizar commits
+- Setup portátil com `Makefile` ou `Ansible`
+
+
+---
+
+## 🆕 O que foi adicionado nesta versão:
+
+- `shell/aliases.sh` com atalhos úteis de terminal
+- `shell/zsh/.zshrc` com tema, plugins e integração com aliases
+- `neovim/init.lua` com configuração básica (modo moderno)
+- `hooks/.pre-commit-config.yaml` com hooks de qualidade de código
+- `python/poetry/` para ambientes Python isolados
+- `Makefile` para automatizar o setup completo

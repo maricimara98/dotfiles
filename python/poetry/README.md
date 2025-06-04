@@ -1,0 +1,1 @@
+# Configuração de ambiente Python com Poetry
